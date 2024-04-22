@@ -21,6 +21,8 @@ A simple panel is available to edit the position/size of the nodes but you can p
 - You can configure its behavior in the inspector. There is a lot of options and each of them has a simple hint documentation (see video below).
 - If you want the node to also be selectable, simply add a SelectableNode instance as a child of the ResizableNode. You don't need to code anything, all is done under the hood for you.
 
+In order to make the node movable, you need to make it a child of a non-container node (like Control for example). If you want to be able to use the Selectable feature, you have to make the nodes children of a SelectionContainer.
+
 [Helper Hints.webm](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/24c2e9ae-729f-4342-a820-b67e2d1edd20)
 
 ## Dedicated Edit Controls Panel
