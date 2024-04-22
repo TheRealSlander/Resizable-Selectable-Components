@@ -46,6 +46,14 @@ Then you can design your Panel as you wish, all the work is done in the backgrou
 
 ![image](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/7c080620-74b1-4581-8194-82504d99f618)
 
+In the edits you can type in numbers or use operators to let the component to handle the computation for you. Allowed operators are:
+- `+` to add to the current value (for example `+100` will add 100 to the actual value)
+- `-` to subtract from the current value (for example `-50` will remove 50 from the actual value)
+- `/` to divide the current value by the provided amount (for example `/2` will divide the actual value by 2, rounded)
+- `*` to multiply the current value by the provided amount (for example `*3` will multiply the actual value by 3)
+
+There is also the option to type 2 hyphens (`--`) to set a negative value; for example `--100` in the Top/Y field will place the node at -100 from its parent Top/Y value. This option is only working if the node is allowed to be placed outside its parent of course.
+
 ## What's next
 These components will probably receive updates if new features are needed or if bugs are found.
 
