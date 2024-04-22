@@ -1,6 +1,8 @@
-# Resizable-Selectable-Components
-This repository contains simple dynamic components to allow selection, resizing and moving of nodes at runtime in Godot.
+# Resizable-Selectable-Components for Godot 4
+This repository contains simple dynamic components to allow selection, resizing and moving of nodes at runtime in Godot applications/games.
+
 Nodes can be resized/moved by clicking and dragging them or their handles. They also have an Edit mode to allow precice placements (using magnetism and helper dotted lines).
+
 A lot of options are provided, and the node can be selected and moved together if desired as well.
 
 There is a demo project with the components inside so you can test them without impacting your own project.
@@ -42,3 +44,5 @@ These components will probably receive updates if new features are needed or if 
 
 ## Known issues
 Actually none. Don't hesitate to contact me if you find some.
+
+The components are not working with the Godot version 4.3.devx as there is a bug with the reparent() method in the current version. So stick to Godot 4.2 if you want to use them.
