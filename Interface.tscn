@@ -49,7 +49,7 @@ offset_bottom = 107.0
 text = "Alt + Left Click on a node to toggle the edit mode
 Ctrl + Left Click to add / remove node to selection
 Left Click and Drag to box select nodes
-Echap to cancel edition or deselect the nodes"
+Escape to cancel edition or deselect the nodes"
 
 [node name="SelectionContainer" parent="." instance=ExtResource("1_7c0dq")]
 layout_mode = 1
