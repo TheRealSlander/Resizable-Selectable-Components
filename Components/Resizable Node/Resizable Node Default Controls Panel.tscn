@@ -1,0 +1,121 @@
+[gd_scene load_steps=8 format=3 uid="uid://x44odfl2fcxx"]
+
+[ext_resource type="StyleBox" uid="uid://bvb0gbo4y3vsg" path="res://Components/Resizable Node/Resources/Control Panel.tres" id="1_tfff8"]
+[ext_resource type="Script" path="res://Components/Resizable Node/Resizable Node Default Controls Panel.gd" id="2_k7o8u"]
+[ext_resource type="StyleBox" uid="uid://cb7ie1phbfxak" path="res://Components/Resizable Node/Resources/Control Edit Normal.tres" id="3_avddw"]
+[ext_resource type="StyleBox" uid="uid://wwe05h1xmwxw" path="res://Components/Resizable Node/Resources/Control Edit Focused.tres" id="4_vurun"]
+[ext_resource type="StyleBox" uid="uid://duvt3v0g6frjs" path="res://Components/Resizable Node/Resources/Control Edit Disabled.tres" id="5_b7ucf"]
+[ext_resource type="Texture2D" uid="uid://b342tvpdmvnx2" path="res://Components/Resizable Node/Icons/Not Magnetized.svg" id="7_qr3y8"]
+[ext_resource type="Texture2D" uid="uid://d1cesnhav8uxu" path="res://Components/Resizable Node/Icons/Magnetized.svg" id="8_wlnkq"]
+
+[node name="ResizableNodeDefaultControlsPanel" type="PanelContainer"]
+custom_minimum_size = Vector2(240, 24)
+offset_right = 240.0
+offset_bottom = 66.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_styles/panel = ExtResource("1_tfff8")
+script = ExtResource("2_k7o8u")
+
+[node name="Horizontal Parts" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Position Parts" type="HBoxContainer" parent="Horizontal Parts"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Position Label" type="RichTextLabel" parent="Horizontal Parts/Position Parts"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "POSITION :"
+fit_content = true
+autowrap_mode = 0
+
+[node name="Left Edit" type="LineEdit" parent="Horizontal Parts/Position Parts"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = ExtResource("3_avddw")
+theme_override_styles/focus = ExtResource("4_vurun")
+theme_override_styles/read_only = ExtResource("5_b7ucf")
+text = "00000"
+placeholder_text = "X"
+alignment = 2
+max_length = 6
+
+[node name="Separator" type="RichTextLabel" parent="Horizontal Parts/Position Parts"]
+layout_mode = 2
+bbcode_enabled = true
+text = ", "
+fit_content = true
+autowrap_mode = 0
+
+[node name="Top Edit" type="LineEdit" parent="Horizontal Parts/Position Parts"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = ExtResource("3_avddw")
+theme_override_styles/focus = ExtResource("4_vurun")
+theme_override_styles/read_only = ExtResource("5_b7ucf")
+text = "00000"
+placeholder_text = "Y"
+alignment = 2
+max_length = 6
+
+[node name="Size Parts" type="HBoxContainer" parent="Horizontal Parts"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Size Label" type="RichTextLabel" parent="Horizontal Parts/Size Parts"]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "SIZE :"
+fit_content = true
+autowrap_mode = 0
+
+[node name="Width Edit" type="LineEdit" parent="Horizontal Parts/Size Parts"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = ExtResource("3_avddw")
+theme_override_styles/focus = ExtResource("4_vurun")
+theme_override_styles/read_only = ExtResource("5_b7ucf")
+text = "00000"
+placeholder_text = "Width"
+alignment = 2
+max_length = 6
+
+[node name="Separator" type="RichTextLabel" parent="Horizontal Parts/Size Parts"]
+layout_mode = 2
+bbcode_enabled = true
+text = "x"
+fit_content = true
+autowrap_mode = 0
+
+[node name="Height Edit" type="LineEdit" parent="Horizontal Parts/Size Parts"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = ExtResource("3_avddw")
+theme_override_styles/focus = ExtResource("4_vurun")
+theme_override_styles/read_only = ExtResource("5_b7ucf")
+text = "00000"
+placeholder_text = "Heigh."
+alignment = 2
+max_length = 6
+
+[node name="Snapping Button" type="Button" parent="Horizontal Parts/Size Parts"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+icon = ExtResource("7_qr3y8")
+flat = true
+expand_icon = true
+
+[node name="Free Button" type="Button" parent="Horizontal Parts/Size Parts"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+icon = ExtResource("8_wlnkq")
+flat = true
+expand_icon = true

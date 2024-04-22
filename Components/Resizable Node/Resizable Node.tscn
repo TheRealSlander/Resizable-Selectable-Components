@@ -1,0 +1,289 @@
+[gd_scene load_steps=43 format=3 uid="uid://n1nyao687pa3"]
+
+[ext_resource type="Script" path="res://Components/Resizable Node/Resizable Node.gd" id="1_tc2dd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nvtx3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qxm65"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h5m5b"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1cv77"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fbwfq"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x31hl"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_53ryf"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h3j8u"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3ylw5"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_siwic"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3wnj8"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tfvxb"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sp4n3"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x87h3"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_alfru"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gouoc"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3467x"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n8c36"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kmwiu"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ijbo"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5raii"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cehvh"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d7ubv"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xun0j"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mj4nb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tnaar"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jmwr6"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dvkqw"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ksu7r"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1apmu"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_svylx"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m43aj"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_68gu1"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ghmg"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eyhoi"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sijt8"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ffn35"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6d40y"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6yy53"]
+bg_color = Color(0, 0.498039, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7n6b4"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ko5g1"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="ResizableNode" type="PanelContainer" groups=["Resizable Nodes"]]
+offset_right = 100.0
+offset_bottom = 50.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_nvtx3")
+script = ExtResource("1_tc2dd")
+
+[node name="Overlays" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qxm65")
+
+[node name="Styling" type="PanelContainer" parent="Overlays"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_h5m5b")
+
+[node name="Mover Overlay" type="VBoxContainer" parent="Overlays"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Mover Button" type="Button" parent="Overlays/Mover Overlay"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_1cv77")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fbwfq")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_x31hl")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_53ryf")
+theme_override_styles/focus = SubResource("StyleBoxFlat_h3j8u")
+keep_pressed_outside = true
+
+[node name="Mover Spacer" type="Control" parent="Overlays/Mover Overlay"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+
+[node name="Handles Overlay" type="VBoxContainer" parent="Overlays"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Top Handles" type="HBoxContainer" parent="Overlays/Handles Overlay"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Top Left Handle Button" type="Button" parent="Overlays/Handles Overlay/Top Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_3ylw5")
+theme_override_styles/hover = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_3wnj8")
+theme_override_styles/focus = SubResource("StyleBoxFlat_tfvxb")
+keep_pressed_outside = true
+
+[node name="Top Handle Button" type="Button" parent="Overlays/Handles Overlay/Top Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+focus_mode = 0
+mouse_default_cursor_shape = 9
+theme_override_styles/normal = SubResource("StyleBoxFlat_sp4n3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_x87h3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_alfru")
+theme_override_styles/focus = SubResource("StyleBoxFlat_gouoc")
+keep_pressed_outside = true
+
+[node name="Top Right Handle Button" type="Button" parent="Overlays/Handles Overlay/Top Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 11
+theme_override_styles/normal = SubResource("StyleBoxFlat_3467x")
+theme_override_styles/hover = SubResource("StyleBoxFlat_n8c36")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_kmwiu")
+theme_override_styles/focus = SubResource("StyleBoxFlat_2ijbo")
+keep_pressed_outside = true
+
+[node name="Sides Handles" type="HBoxContainer" parent="Overlays/Handles Overlay"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Left Handle Button" type="Button" parent="Overlays/Handles Overlay/Sides Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_5raii")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cehvh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_d7ubv")
+theme_override_styles/focus = SubResource("StyleBoxFlat_xun0j")
+keep_pressed_outside = true
+
+[node name="Controls Container" type="PanelContainer" parent="Overlays/Handles Overlay/Sides Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_mj4nb")
+
+[node name="Right Handle Button" type="Button" parent="Overlays/Handles Overlay/Sides Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_tnaar")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jmwr6")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_dvkqw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_ksu7r")
+keep_pressed_outside = true
+
+[node name="Bottom Handles" type="HBoxContainer" parent="Overlays/Handles Overlay"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Bottom Left Handle Button" type="Button" parent="Overlays/Handles Overlay/Bottom Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 11
+theme_override_styles/normal = SubResource("StyleBoxFlat_1apmu")
+theme_override_styles/hover = SubResource("StyleBoxFlat_svylx")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_m43aj")
+theme_override_styles/focus = SubResource("StyleBoxFlat_68gu1")
+keep_pressed_outside = true
+
+[node name="Bottom Handle Button" type="Button" parent="Overlays/Handles Overlay/Bottom Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+focus_mode = 0
+mouse_default_cursor_shape = 9
+theme_override_styles/normal = SubResource("StyleBoxFlat_8ghmg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_eyhoi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_sijt8")
+theme_override_styles/focus = SubResource("StyleBoxFlat_ffn35")
+keep_pressed_outside = true
+
+[node name="Bottom Right Handle Button" type="Button" parent="Overlays/Handles Overlay/Bottom Handles"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_6d40y")
+theme_override_styles/hover = SubResource("StyleBoxFlat_6yy53")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_siwic")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_7n6b4")
+theme_override_styles/focus = SubResource("StyleBoxFlat_ko5g1")
+keep_pressed_outside = true

@@ -1,0 +1,94 @@
+[gd_scene load_steps=7 format=3 uid="uid://cm1ubxt3kwjq7"]
+
+[ext_resource type="Script" path="res://Components/Resizable Node/Resizable Node Basic Controls.gd" id="1_yugbt"]
+[ext_resource type="Texture2D" uid="uid://d1cesnhav8uxu" path="res://Components/Resizable Node/Icons/Magnetized.svg" id="2_rl8qj"]
+[ext_resource type="Texture2D" uid="uid://b342tvpdmvnx2" path="res://Components/Resizable Node/Icons/Not Magnetized.svg" id="3_dnem1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w0rvo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1yc4p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qd8dm"]
+
+[node name="ControlsPanel" type="PanelContainer"]
+offset_right = 122.0
+offset_bottom = 73.0
+script = ExtResource("1_yugbt")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Dedicated
+Controls Panel"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Left Edit" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_w0rvo")
+theme_override_styles/focus = SubResource("StyleBoxFlat_1yc4p")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_qd8dm")
+placeholder_text = "X"
+alignment = 1
+max_length = 6
+
+[node name="Top Edit" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_w0rvo")
+theme_override_styles/focus = SubResource("StyleBoxFlat_1yc4p")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_qd8dm")
+placeholder_text = "Y"
+alignment = 1
+max_length = 6
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Width Edit" type="LineEdit" parent="VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_w0rvo")
+theme_override_styles/focus = SubResource("StyleBoxFlat_1yc4p")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_qd8dm")
+placeholder_text = "Width"
+alignment = 1
+max_length = 6
+
+[node name="Height Edit" type="LineEdit" parent="VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_w0rvo")
+theme_override_styles/focus = SubResource("StyleBoxFlat_1yc4p")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_qd8dm")
+placeholder_text = "Height"
+alignment = 1
+max_length = 6
+
+[node name="Free Button" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+size_flags_vertical = 3
+icon = ExtResource("2_rl8qj")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Snapping Button" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+size_flags_vertical = 3
+icon = ExtResource("3_dnem1")
+flat = true
+icon_alignment = 1
+expand_icon = true

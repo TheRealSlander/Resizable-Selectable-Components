@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="Magnetized.svg"
+   width="48"
+   height="48"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="6.7951016"
+     inkscape:cx="35.245978"
+     inkscape:cy="33.847912"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+  <path
+     d="M 3,33 V 24 C 3,12.403125 12.403125,3 24,3 35.596875,3 45,12.403125 45,24 v 9 H 33 v -9 c 0,-4.96875 -4.03125,-9 -9,-9 -4.96875,0 -9,4.03125 -9,9 v 9 z m 0,3 h 12 v 6 c 0,1.659375 -1.340625,3 -3,3 H 5.9999996 C 4.3406251,45 3,43.659375 3,42 Z m 30,0 h 12 v 6 c 0,1.659375 -1.340625,3 -3,3 h -6 c -1.659375,0 -3,-1.340625 -3,-3 z"
+     id="path2"
+     style="fill:#ffffff;stroke-width:0.0937501" />
+</svg>
