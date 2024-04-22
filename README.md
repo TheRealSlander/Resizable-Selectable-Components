@@ -3,6 +3,8 @@ This repository contains simple dynamic components to allow selection, resizing 
 Nodes can be resized/moved by clicking and dragging them or their handles. They also have an Edit mode to allow precice placements (using magnetism and helper dotted lines).
 A lot of options are provided, and the node can be selected and moved together if desired as well.
 
+There is a demo project with the components inside so you can test them without impacting your own project.
+
 [Demo 1.webm](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/98edee20-9223-4ed7-9326-e3898c8b995d)
 
 A simple panel is available to edit the position/size of the nodes but you can provide your own if desired. The default panel is also smartly placed according to the available space around the edited node.
