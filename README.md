@@ -16,7 +16,10 @@ A simple panel is available to edit the position/size of the nodes but you can p
 
 ## How to install the components
 - Create a new project or have an already working Godot project, then add the Resizable and Selectable nodes folders to your project.
+
+![image](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/e536abee-1c7d-4d61-aa74-7ab7fdf3b02f)
 - Add the "Utils.gd" and "Signals.gd" scripts in your project structure as well. These 2 scripts have to be loaded as autoloads. If you already use these 2 scripts names, simply copy/paste the content inside your files.
+![image](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/0a081336-140a-43e2-897e-139374b5c464)
 
 ## How to use the components
 - In your scene, instantiate a ResizableNode wherever you want (you can use Ctrl + Shit + A to do so).
