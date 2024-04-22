@@ -27,6 +27,10 @@ In order to make the node movable, you need to make it a child of a non-containe
 
 [Helper Hints.webm](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/24c2e9ae-729f-4342-a820-b67e2d1edd20)
 
+## Available options
+![image](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/757b5bb9-e55a-44e0-9dbf-08e48cf9f3e3)![image](https://github.com/TheRealSlander/Resizable-Selectable-Components/assets/102065761/83b1d845-de31-4692-841a-1d6fddb9f982)
+
+
 ## Dedicated Edit Controls Panel
 By default, a Controls Panel is available somewhere around the ResizableNode (where there is space, or inside the node). But you can create your own following these rules:
 - 4 LineEdits with names %"Left Edit", %"Top Edit", %"Width Edit" and %"Height Edit"
